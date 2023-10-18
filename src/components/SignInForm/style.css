@@ -1,0 +1,127 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+form h2 {
+  color: #343447;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+form label {
+  color: #344054;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+
+.password-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.password-title-container span {
+  color: #DA0175;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration-line: underline;
+}
+
+.user-password {
+  position: relative;
+}
+
+.user-password img {
+  position: absolute;
+  right: 5%;
+  transform: translateY(50%);
+  cursor: pointer;
+}
+
+form input {
+  width: 36.8rem;
+  height: 4.4rem;
+  padding: 10px;
+
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  background: #FFF;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+form input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #667085;
+}
+
+.sign-in-btn {
+  width: 160px;
+  height: 33px;
+  margin: 40px auto 16px;
+  border: none;
+  border-radius: 10px;
+
+  color: #f8f8f9;
+  background-color: #da0175;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+form p {
+  color: #3F3F55;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: center;
+}
+
+form p .link-sign-up {
+  color: #DA0175;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration-line: underline;
+}
+
+.error-message {
+  display: block;
+  margin: 5px 0;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: red;
+
+}

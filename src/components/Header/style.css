@@ -1,0 +1,73 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 6.4rem);
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  border-bottom: .1rem solid #ACD9C5;
+  padding: 5.4rem 5rem 2.4rem 5rem;
+}
+
+.header-title {
+  font-family: Montserrat;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  cursor: pointer;
+}
+
+.user-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-initials {
+  margin-right: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-img {
+  width: 4.8rem;
+  height: 4.8rem;
+  position: absolute;
+}
+
+.user-initials-text {
+  color: #0E8750;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  left: 5%;
+}
+
+.user-text {
+  color: #0E8750;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

@@ -1,0 +1,316 @@
+.container-charges {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.content-container {
+  width: calc(100vw - 10.8rem);
+  height: 100vh;
+  margin-left: 10.8rem;
+  background-color: #F8F8F9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-row-charges {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2.4rem 10.8rem 0 10.8rem;
+}
+
+.charges-div {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.charges-title {
+  color: #3F3F55;
+  font-family: Montserrat;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.charges-img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.functionalities-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.add-charges-btn {
+  border: none;
+  background-color: #DA0175;
+  width: 26.4rem;
+  height: 4.6rem;
+  border-radius: 1rem;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  color: #F8F8F9;
+  cursor: pointer;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+  height: 5.6rem;
+  padding-left: 2.8rem;
+  border-bottom: .1rem solid #EFF0F6;
+}
+
+.charges-text-table-body {
+  color: #6E6E85;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem;
+  margin-right: 2.5rem;
+}
+
+.description-table-body {
+  color: #6E6E85;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem;
+
+}
+
+.filter-container {
+  width: 4rem;
+  height: 4rem;
+  padding: .8rem;
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.filter-btn {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.input-charges-container {
+  position: relative;
+}
+
+.input-search {
+  width: 32.2rem;
+  height: 4.57rem;
+  border-radius: 1rem;
+  background: #FFF;
+  padding-left: .8rem;
+  color: #747488;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  box-shadow: rgba(218, 1, 117, 0.05);
+}
+
+.search-img {
+  position: absolute;
+  left: 90%;
+  transform: translateY(35%);
+}
+
+.charges-table-container {
+  display: flex;
+  flex-direction: column;
+  width: 111.2rem;
+  height: auto;
+  margin-top: 2.4rem;
+
+  background-color: white;
+  border-radius: 3rem;
+
+}
+
+.charges-text-table-head {
+  color: #3F3F55;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem;
+  margin-right: 9rem;
+}
+
+.charges-table-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  padding-left: 2.3rem;
+  border-bottom: .1rem solid #EFF0F6;
+}
+
+.charges-head {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.add-charge-img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.order-icon {
+  cursor: pointer;
+}
+
+.icon-container-body {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  gap: .4rem;
+}
+
+.charge-edit-text {
+  color: #747488;
+  font-family: Nunito;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.table-charges-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 2.5rem;
+  height: 5.6rem;
+  width: 100%;
+  padding-right: 4rem;
+  border-bottom: .1rem solid #EFF0F6;
+  cursor: pointer;
+}
+
+.table-charges-body-clicked {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.charges-name {
+  width: 20rem;
+}
+
+.id-charges {
+  width: 9rem;
+}
+
+.charges-value {
+  width: 12rem;
+}
+
+.due-date-charges {
+  width: 13.5rem;
+}
+
+.status-charge-table {
+  width: 9rem;
+  text-align: center;
+  margin-left: 6rem;
+}
+
+.charges-description-body {
+  width: 18rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 4rem;
+}
+
+.charge-delete-text {
+  color: #AE1100;
+  font-family: Nunito;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.clicked-open-charges-details-modal {
+  cursor: pointer;
+}
+
+.charge-status-unpaid {
+  border-radius: .8rem;
+  background-color: #FFEFEF;
+  padding: 0px 8px;
+  color: #971D1D;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 2.1rem;
+}
+
+.charge-status-pending {
+  border-radius: .8rem;
+  background-color: #FCF6DC;
+  padding: 0px 8px;
+  color: #C5A605;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 2rem;
+}
+
+.charge-status-paid {
+  border-radius: .8rem;
+  background-color: #EEF6F6;
+  padding: 0px 8px;
+  color: #1FA7AF;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 2rem;
+}
+
+.icons-container-charge {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  margin-left: 2rem;
+}
+
+.image-charge-body {
+  cursor: pointer;
+}

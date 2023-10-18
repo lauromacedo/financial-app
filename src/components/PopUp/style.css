@@ -1,0 +1,42 @@
+.arrow-up {
+  margin-top: 32px;
+  margin-left: -22px;
+}
+
+.pop-up {
+  width: 92px;
+  height: 59px;
+  display: inline-flex;
+  padding: 8px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  border-radius: 8px;
+
+  background-color: #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.pop-up .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 22px;
+  height: 31px;
+}
+
+.pop-up .icon p {
+  font-family: "Nunito",sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+
+  color: #747488;
+}
+
+.pop-up p.edit-title {
+  margin-top: 5px;
+}

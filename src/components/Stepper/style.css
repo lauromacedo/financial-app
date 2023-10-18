@@ -1,0 +1,50 @@
+.stepper-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 40rem;
+  gap: 2.5rem;
+  margin-left: 4.9rem;
+  margin-top: 20.8rem;
+}
+
+.stepper-container::after {
+  content: "";
+  width: .3rem;
+  height: 17rem;
+  background-color: #0E8750;
+  position: absolute;
+  left: 3.8%;
+  margin-top: .1rem;
+
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
+.image-step {
+  width: 3.2rem;
+  height: 3.2rem;
+  z-index: 1;
+}
+
+.step-title {
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: #0E8750;
+}
+
+.step-text {
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: #3F3F55;
+}

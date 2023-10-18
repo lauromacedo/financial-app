@@ -1,0 +1,45 @@
+.container-page-sucess {
+  position: relative;
+
+}
+
+.container-content-popup-sucess {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #C3D4FE;
+  width: 33rem;
+  height: 5.4rem;
+  z-index: 10000;
+  position: fixed;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 .4rem 4.2rem 0 rgba(0, 0, 0, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-content-sucess {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .8rem;
+  margin-left: 2.4rem;
+}
+
+.text-content-popup-sucess {
+  color: #243F80;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.close-popup-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 2.4rem;
+  cursor: pointer;
+}

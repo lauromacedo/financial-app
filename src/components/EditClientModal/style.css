@@ -1,0 +1,36 @@
+.edit-client-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(145, 154, 150, 0.30);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: fixed;
+}
+
+.content-modal-edit-client-container {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  height: 80rem;
+  background-color: #FFF;
+  border-radius: 3rem;
+}
+
+.modal-edit-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5.1rem;
+  padding-left: 5.7rem;
+  padding-right: 2.4rem;
+}
+
+.title-modal-edit-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+}

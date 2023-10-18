@@ -1,0 +1,143 @@
+.modal {
+  left: 10.8rem;
+}
+
+.edit-charge-content {
+  max-width: 576px;
+  width: 100%;
+  border-radius: 3rem;
+  padding: 4.5rem;
+  position: relative;
+
+  background-color: #fff;
+}
+
+.edit-charge-content .close-icon {
+  position: absolute;
+  top: 2.3rem;
+  right: 4rem;
+  cursor: pointer;
+}
+
+.edit-charge-content header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.edit-charge-content header h1 {
+  color:#3F3F55;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+form .form-group-edit-charge {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+
+form .form-group-edit-charge input, input[type="date"], input[type="number"] {
+  width: 48.5rem;
+  padding: 1rem 1.6rem;
+  border-radius: .8rem;
+  border: 1px solid #D0D5DD;
+  color: #747488 ;
+}
+
+form .form-group-edit-charge textarea {
+  width: 48.5rem;
+  height: 8.8rem;
+  padding: 1.6rem;
+  border-radius: .8rem;
+  border: 1px solid #D0D5DD;
+  resize: none;
+  color:#747488;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+form .form-group-edit-charge-details {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+form .form-group-edit-charge-details .charge-due-date input,
+form .form-group-edit-charge-details .charge-value input {
+  width: 232px;
+}
+
+.form-group-edit-charge-status .charge-paid {
+  margin-top: 1.6rem;
+}
+
+.charge-paid,
+.charge-pending {
+  display: flex;
+  align-items: center;
+  width: 48.7rem;
+  padding: 1.2rem 1.6rem;
+  gap: .8rem;
+  border-radius: 1rem;
+  background-color:#F0F0F5;
+  margin-bottom: .8rem;
+  position: relative;
+}
+
+.charge-paid .input-paid,
+.charge-pending .input-pending {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 1.2rem;
+  left: 1.6rem;
+  opacity: 0;
+}
+
+.charge-paid span,
+.charge-pending span {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  color:#3F3F55;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+.charge-paid span::before,
+.charge-pending span::before {
+  content: "";
+  width: 2.4rem;
+  height: 2.4rem;
+  display: block;
+  align-items: center;
+  background-color: #C8C8D7;
+  border-radius: 50%;
+}
+
+.charge-paid .input-paid:checked + span::before,
+.charge-pending .input-pending:checked + span::before  {
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='33' viewBox='0 0 32 33' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='16' cy='16.5' r='16' fill='%230E8750'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M23.7016 10.7165C24.0686 11.031 24.1016 11.5728 23.7755 11.9266L14.294 22.2123C14.1253 22.3953 13.8835 22.5 13.6296 22.5C13.3757 22.5 13.134 22.3953 12.9653 22.2123L8.22453 17.0695C7.89839 16.7156 7.93143 16.1739 8.29835 15.8594C8.66527 15.5449 9.22711 15.5767 9.55326 15.9306L13.6296 20.3527L22.4467 10.7877C22.7729 10.4339 23.3347 10.402 23.7016 10.7165Z' fill='%23F8F8F9'/%3E%3C/svg%3E%0A");
+  background-position: center;
+  background-size: cover;
+}
+
+.charge-paid .input-paid:focus + span::before,
+.charge-pending .input-pending:focus + span::before  {
+  border: 1px solid #1e1e1e;
+}
+
+.charge-edit-buttons {
+  display: flex;
+  gap: 24px;
+  margin-top: 8rem;
+}

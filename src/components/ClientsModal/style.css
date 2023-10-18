@@ -1,0 +1,207 @@
+.add-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(145, 154, 150, 0.30);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: fixed;
+}
+
+
+.content-modal-clients-container {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  height: 80rem;
+  background-color: #FFF;
+  border-radius: 3rem;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.9rem;
+  padding-left: 5.7rem;
+  padding-right: 2.4rem;
+}
+
+.title-modal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.img-title-modal {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.close-modal {
+  width: 3.2rem;
+  height: 2.9rem;
+  cursor: pointer;
+}
+
+.title-modal-text {
+  color: #3F3F55;
+  font-family: Montserrat;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 5.6rem;
+  margin-top: 1.5rem;
+}
+
+.big-input {
+  width: 100%;
+  height: 4.4rem;
+  border: .1rem solid #D0D5DD;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #9B9BB2;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.lable-input-modal {
+  color: #3F3F55;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: .6rem;
+  margin-top: .8rem;
+}
+
+.input-horizontal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.small-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.md-input {
+  width: 23.5rem;
+  height: 4.4rem;
+  border: .1rem solid #D0D5DD;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #9B9BB2;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.small-input {
+  width: 22.4rem;
+  height: 4.4rem;
+  border: .1rem solid #D0D5DD;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #9B9BB2;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.md-md-input {
+  width: 30.3rem;
+  height: 4.4rem;
+  border: .1rem solid #D0D5DD;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #9B9BB2;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.xs-input {
+  width: 16rem;
+  height: 4.4rem;
+  border: .1rem solid #D0D5DD;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #9B9BB2;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.modal-btns-containers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 5.6rem;
+  margin-top: 3rem;
+}
+
+.cancel-btn {
+  width: 23.3rem;
+  height: 3.3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: .1rem solid #DEDEE9;
+  background-color: #F8F8F9;
+
+  color: #0E8750;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.apply-btn {
+  width: 23.3rem;
+  height: 3.3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  background-color: #DA0175;
+
+  color: #F8F8F9;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.error-modal-message {
+  color: #E70000;
+  font-family: Nunito;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 38%;
+  background-color: #F0F0F5;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+}
+
+.form-itens {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20.8rem;
+
+}
+
+.sucess-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: .8rem;
+  margin-top: 18rem;
+}
+
+.btns-container-alternative {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: .8rem;
+  margin-top: 1.5rem;
+}
+
+.btn-stepper {
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.continue-btn {
+  width: 16rem;
+  height: 3.3rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #DA0175;
+  border: none;
+
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #F8F8F9;
+
+  cursor: pointer;
+}
+
+.text-to-sign-in {
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  color: #3f3f55;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.link-to-sign-in {
+  color: #DA0175;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.finish-btn {
+  width: 16rem;
+  height: 3.3rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #DA0175;
+  border: none;
+
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #F8F8F9;
+
+  cursor: pointer;
+}

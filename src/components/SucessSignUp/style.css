@@ -1,0 +1,53 @@
+.sucess {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sucess-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  height: 51.2rem;
+  border-radius: 3rem;
+
+  background-color: #F0F0F5;
+}
+
+.sucess-img {
+  width: 10.4rem;
+  height: 10.4rem;
+}
+
+.sucess-text {
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: #343447;
+  margin-top: 2.4rem;
+}
+
+.sucess-btn {
+  margin-top: 4rem;
+  margin-bottom: 4.5rem;
+
+  width: 160px;
+  height: 3.2rem;
+  border-radius: 1rem;
+  background-color: #DA0175;
+  border: none;
+  color: #F8F8F9;
+
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+
+}

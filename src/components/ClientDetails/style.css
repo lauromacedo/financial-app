@@ -1,0 +1,334 @@
+.clients-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content-container {
+  width: calc(100vw - 10.8rem);
+  height: 100vh;
+  margin-left: 10.8rem;
+  background-color: #F8F8F9;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.client-details-title-container {
+  display: flex;
+  padding-right: 88rem;
+  gap: 2.5rem;
+  margin-top: 2.4rem;
+
+}
+
+.title-client {
+  color: #3F3F55;
+  font-family: Montserrat;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.client-img-text {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.client-data-container {
+  display: flex;
+  flex-direction: column;
+  width: 111.5rem;
+  height: 27rem;
+  border-radius: 3rem;
+  background: #FFF;
+  margin-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+
+.client-data-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 2rem 0 2rem;
+}
+
+.client-text-header {
+  color: #3F3F55;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.edit-client-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24.8rem;
+  height: 3.3rem;
+  border-radius: 1rem;
+  border: .1rem solid #DEDEE9;
+  background-color: #F8F8F9;
+  color: #0E8750;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.edit-img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.client-data-card {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.4rem;
+  margin-top: 2.4rem;
+  gap: 0;
+}
+
+.client-data-card :first-child {
+  margin-right: 11.4rem;
+}
+
+.client-data-title {
+  color: #3F3F55;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.client-data-text {
+  color: #3F3F55;
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-top: .8rem;
+}
+
+.client-address-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2.4rem;
+  margin-top: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.title-charges-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 3rem 0 2.4rem;
+}
+
+.charges-client-data-table {
+  display: flex;
+  flex-direction: column;
+  width: 111.5rem;
+  height: auto;
+  border-radius: 3rem;
+  background-color: #FFF;
+
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+
+
+}
+
+.charges-client-head {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.new-charge-btn {
+  width: 25.2rem;
+  height: 3.3rem;
+  border-radius: 1rem;
+  background: #DA0175;
+  color: #F8F8F9;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.charges-client-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2.35rem;
+  margin-left: 2.3rem;
+  padding-bottom: 1.6rem;
+  gap: 6.5rem;
+  border-bottom: .1rem solid #EFF0F6;
+}
+
+.order-img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.small-container-head {
+  display: flex;
+  flex-direction: row;
+  gap: .8rem;
+}
+
+.charges-client-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 2.5rem;
+  height: 5.6rem;
+  width: 100%;
+  padding-right: 4rem;
+  border-bottom: .1rem solid #EFF0F6;
+}
+
+.charges-client-body-clicked {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.id-cob {
+  width: 17rem;
+  padding-left: 3rem;
+}
+
+.due-date {
+  width: 17rem;
+  padding-left: 1rem;
+}
+
+.value {
+  width: 9.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.status-charge-container {
+  width: 10rem;
+}
+
+.client-data-text-body {
+  color: #6E6E85;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: 0.07px;
+}
+
+.charge-data-status-unpaid {
+  background-color: #FFEFEF;
+  width: 8rem;
+  text-align: center;
+  border-radius: .8rem;
+  color: #971D1D;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.charge-data-status-pending {
+  border-radius: .8rem;
+  background-color: #FCF6DC;
+  padding: 0px 8px;
+  color: #C5A605;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 2rem;
+}
+
+.charge-data-status-paid {
+  background-color: #EEF6F6;
+  width: 8rem;
+  text-align: center;
+  border-radius: .8rem;
+  color: #1FA7AF;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.client-data-text-body-description {
+  color: #6E6E85;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: 0.07px;
+  width: 34.8rem;
+  margin-left: 3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.image-charges-client-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.4rem;
+  cursor: pointer;
+}
+
+.img-charge-client-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .4rem
+}
+
+.edit-charges-body-text {
+  color: #747488;
+  font-family: Nunito;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.delete-charge-client-body {
+  color: #AE1100;
+  font-family: Nunito;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

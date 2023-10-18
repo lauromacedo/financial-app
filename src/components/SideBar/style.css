@@ -1,0 +1,53 @@
+.sidebar-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 10.8rem;
+  background-color: #DEDEE9;
+  align-items: center;
+  padding-top: 4.5rem;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 7.2rem;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.active {
+  border-right: .4rem solid #DA0175;
+}
+
+.card-image {
+  width: 4.8rem;
+  height: 4.8rem;
+  cursor: pointer;
+}
+
+.card-text-active {
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #DA0175;
+}
+
+.card-text-inactive {
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #343447;
+}
