@@ -5,12 +5,12 @@
 - Siga os seguintes passos:
 1. Abra o terminal e clone este repositório para sua máquina com o seguinte comando:
 ```bash
-git clone https://github.com/alissonromaosantos/desafio-front-end-M06.git
+git@github.com:lauromacedo/financial-app.git
 ```
 
 2. Navegue até a pasta do projeto com o comando:
 ```bash
-cd desafio-front-end-M06
+cd financial-app
 ```
 
 3. Abra o projeto no seu VsCode (Se não tiver instalado, instale-o [aqui!](https://code.visualstudio.com/download)):
@@ -57,11 +57,7 @@ npm run dev
   
 ## 🚀 Deploy
 - Links da Aplicação Web em produção:
-```text
-https://financial-app-academy.netlify.app/
-```
-```text
-https://desafio-front-end-m06.vercel.app/
-```
 
-&copy; MIT License 2023, feito com ❤️ pelos nossos colaboradores.
+```text
+https://main-financial-app.vercel.app
+```
