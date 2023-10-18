@@ -1,16 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1_2)">
-<path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12Z" fill="#0E8750"/>
-<g clip-path="url(#clip1_1_2)">
-<path d="M16.7273 9.22559L10.7273 15.771L8 12.7958" stroke="#FCFCFC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-<defs>
-<clipPath id="clip0_1_2">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-<clipPath id="clip1_1_2">
-<rect width="11" height="9" fill="white" transform="translate(7 8)"/>
-</clipPath>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g clip-path="url(#clip0_1_2)"><path fill="#0E8750" d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12Z"/><g clip-path="url(#clip1_1_2)"><path stroke="#FCFCFC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.7273 9.22559L10.7273 15.771L8 12.7958"/></g></g><defs><clipPath id="clip0_1_2"><rect width="24" height="24" fill="#fff"/></clipPath><clipPath id="clip1_1_2"><rect width="11" height="9" fill="#fff" transform="translate(7 8)"/></clipPath></defs></svg>
